@@ -460,9 +460,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['+353 83 846 ****', 'Please reach out by email.'],
+    emailAddress: ['igor.work02@gmail.com', 'schoolbotytc@gmail.com'],
+    address: "Dublin 9, Dublin - Ireland"
   }
 }
 
