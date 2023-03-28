@@ -6,7 +6,7 @@ const database = {
     aboutContent: "As a frontend web developer, I specialize in crafting code that is both clean and visually precise. In addition to designing for pixel-perfect layouts, I create web animations that enhance interactivity and elevate user experience.",
     age: 28,
     phone: '',
-    nationality: 'Brazilian and Italian',
+    nationality: 'Brazilian & Italian',
     language: 'English, Portuguese, Spanish',
     email: '',
     address: 'Dublin, Ireland',
