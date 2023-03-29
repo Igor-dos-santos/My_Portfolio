@@ -325,12 +325,12 @@ const database = {
   blogs: [
     {
       id: 1,
-      title: 'Markdown & Html supported blog.',
+      title: 'AI: The Future is Here, But Are We Ready?',
       featuredImage: '/images/blog-image-1.jpg',
-      filesource: '../../blog/markdown-html-supported-blog.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
+      filesource: '../../blog/1_AI.md',
+      createDay: "29",
+      createMonth: 'March',
+      createYear: "2023"
     },
     {
       id: 2,
