@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+Open the terminal in the "package-lock.json" file and run the next command:
+
 ### `npm start`
 
 Runs the app in the development mode.<br>

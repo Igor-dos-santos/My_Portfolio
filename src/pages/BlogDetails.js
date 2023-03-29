@@ -24,9 +24,9 @@ function BlogDetails(props) {
       .catch((err) => console.log(err));
   });
 
-  const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
+  const disqusShortname = "#"; 
   const disqusConfig = {
-    url: "https://github.com/Igor-dos-santos", //Homepage link of this site.
+    url: "https://github.com/Igor-dos-santos", //Homepage link of the directory site.
     identifier: blogId,
     title: blogFile,
   };
