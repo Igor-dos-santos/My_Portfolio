@@ -137,7 +137,7 @@ const database = {
     },
     {
       id: 4,
-      title: "Pen Holder",
+      title: "Calculator App",
       subtitle: "A pen holder with beautiful design.",
       imageUrl: "/images/portfolio-image-3.jpg",
       largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
@@ -145,7 +145,7 @@ const database = {
     },
     {
       id: 5,
-      title: "Mug",
+      title: "Game",
       subtitle: "Mug with awesome style",
       imageUrl: "/images/portfolio-image-5.jpg",
       largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
