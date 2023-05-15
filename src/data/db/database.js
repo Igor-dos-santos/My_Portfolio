@@ -177,7 +177,8 @@ const database = {
       title: "Packet",
       subtitle: "Beautiful packet & product design.",
       imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
+      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"],
+      url: '#'
     },
     {
       id: 10,
