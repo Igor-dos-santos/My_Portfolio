@@ -19,25 +19,31 @@ function Contact() {
   const [error, setError] = useState(false);
   const [message, setMessage] = useState("");
 
-  const submitHandler = (event) => {
-    event.preventDefault();
-    if (!formdata.name) {
-      setError(true);
-      setMessage("Name is required");
-    } else if (!formdata.email) {
-      setError(true);
-      setMessage("Email is required");
-    } else if (!formdata.subject) {
-      setError(true);
-      setMessage("Subject is required");
-    } else if (!formdata.message) {
-      setError(true);
-      setMessage("Message is required");
-    } else {
-      setError(false);
-      setMessage("You message has been sent!!!");
-    }
-  };
+const submitHandler = (event) => {
+  event.preventDefault();
+  if (!formdata.name) {
+    setError(true);
+    setMessage("Name is required");
+  } else if (!formdata.email) {
+    setError(true);
+    setMessage("Email is required");
+  } else if (!formdata.subject) {
+    setError(true);
+    setMessage("Subject is required");
+  } else if (!formdata.message) {
+    setError(true);
+    setMessage("Message is required");
+  } else {
+    setError(false);
+    setMessage("You message has been sent!!!");
+    setFormdata({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+  }
+};
   const handleChange = (event) => {
     setFormdata({
       ...formdata,

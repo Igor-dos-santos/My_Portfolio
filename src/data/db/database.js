@@ -3,12 +3,12 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Igor Dos Santos',
-    aboutContent: "As a frontend web developer, I specialize in crafting code that is both clean and visually precise. In addition to designing for pixel-perfect layouts, I create web animations that enhance interactivity and elevate user experience.",
+    aboutContent: "Welcome to my portfolio website, where I bring together my passion for clean, visually-precise code and talk about my expertise in web animation to create stunning, user-centric experiences. As a frontend web developer, I am dedicated to crafting websites that not only look great but also provide seamless functionality and intuitive navigation. From pixel-perfect layouts to captivating animations, I specialise in building websites that engage and delight users. Join me on a journey to elevate your online presence and take your brand to the next level with visually stunning web development.",
     age: 28,
     phone: '',
     nationality: 'Brazilian & Italian',
     language: 'English, Portuguese, Spanish',
-    email: '',
+    email: 'schoolbotytc@gmail.com',
     address: 'Dublin, Ireland',
     freelanceStatus: 'Available',
     socialLinks: {
@@ -44,8 +44,8 @@ const database = {
       id: 1,
       content: "It's a pleasure to work alongside Igor, he is a true asset to any team. His exceptional work ethic, unwavering dedication, and ability to work collaboratively make him a top performer.",
       author: {
-        name: 'Raphael Pagliuca',
-        designation: 'Team Lead'
+        name: 'Bo Chu',
+        designation: 'TikTok - Team Lead'
       }
     },
     {
@@ -53,17 +53,25 @@ const database = {
       content: "Igor is an exceptional worker - dedicated, hardworking, and a true team player. With his professionalism, positive attitude and contagious enthusiasm, I'm confident he'll go far in his career.",
       author: {
         name: 'Marcus Dawson',
-        designation: 'Button Factory Manager'
+        designation: 'Button Factory - Manager'
       }
     },
     {
       id: 3,
-      content: "I have had the pleasure of working with Igor and can confidently say that he is an exceptional employee. His work ethic, team spirit, and steadfast commitment to excellence are truly impressive.",
+      content: "I've had the pleasure of working with Igor and can confidently say that he is an exceptional employee. His work ethic, team spirit, and steadfast commitment to excellence are truly impressive.",
       author: {
         name: 'Moises Dall’Agnol',
-        designation: 'Team Lead'
+        designation: 'Covalen - Regional Manager'
       }
-    }
+    },
+        {
+          id: 4,
+          content: "Igor is very easy to deal with, he is very proactive and enjoys helping others. He is reliable and manages to deliver impeccable work no mater the work conditions and stress levels present behind the projects.",
+          author: {
+            name: 'Raphael Pagliuca',
+            designation: 'Covalen - Team Lead'
+          }
+        }
   ],
   skills: [
     {
@@ -72,7 +80,7 @@ const database = {
     },
     {
       title: "Backend (Java, Python, Ruby)",
-      value: 80
+      value: 85
     },
     {
       title: "Git & GitHub",
@@ -84,39 +92,48 @@ const database = {
     },
     {
       title: "Web Security",
-      value: 70
+      value: 75
     },
     {
       title: "Testing",
-      value: 75
+      value: 70
     }
   ],
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
+      title: "Shop Cart - An Ecommerce web app",
+      subtitle: "An awesome ecommerce app for a clothes store. This app was developed using Python and Django Framework. Deployed on Amazon AWS and has security features necessary",
       imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://github.com/Igor-dos-santos?tab=repositories'
+      largeImageUrl: [
+      "/images/portfolio-image-1-lg.jpg",
+      "/images/portfolio-image-1-lg2.jpg"
+      ],
+      url: 'https://github.com/Igor-dos-santos/ShopCart'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
+      title: "Want A Byte - OWASP App",
+      subtitle: "A restaurant app to exercise OWASP principles. Control user authentication and safeguard routes with Passport.js and Auth0. Pug templates are used on the front end to render views, while CSS is used to maintain style sheets.",
       imageUrl: "/images/portfolio-image-4.jpg",
       largeImageUrl: [
         "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/wantabyte2.png"
       ],
-      url: 'https://github.com/Igor-dos-santos?tab=repositories'
+      url: 'https://github.com/Igor-dos-santos/WantAByte'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: '#'
+      title: "My Recipe App - Recipes Web App",
+      subtitle: "This is a recipes app that generates recipes based on saved ingredients. It also provides you a shopping list for your saved recipes. Users can log in to have access to these features.",
+      imageUrl: "/images/recipeapp.png",
+      largeImageUrl: [
+      "/images/recipeapp.png",
+      "/images/sign-up-lg.png",
+      "/images/food-page copy-lg.png",
+      "/images/recipeapp-lg.jpg"
+      ],
+      url: 'https://github.com/Igor-dos-santos/OWASP_APP'
     },
     {
       id: 4,
@@ -311,14 +328,14 @@ const database = {
         year: "2021 - 2022",
         graduation: "Wed Development Course",
         university: "Udemy",
-        details: "During my web development course, I acquired a broad range of skills that enable me to develop dynamic and interactive web pages. I gained expertise in HTML, CSS, JavaScript, and various front-end frameworks such as React, Angular, and Vue.js. Additionally, I developed my back-end development skills using Node.js and PHP, enabling me to develop full-stack web applications with databases like MongoDB and MySQL. My understanding of web development best practices, as well as testing and debugging techniques, is a valuable asset that ensures the quality of my work. Through the course, I also acquired excellent problem-solving skills, the ability to work in a team and manage my time efficiently. I am confident that my web development skills and knowledge will enable me to make a valuable contribution to any project or organization."
+        details: "During my web development course, I acquired a broad range of skills that enabled me to develop dynamic and interactive web pages. I gained expertise in HTML, CSS, Bootstrap, JavaScript, and various front-end frameworks such as React, Angular, and Vue.js. Additionally, I developed my back-end development skills using Node.js and PHP, enabling me to develop full-stack web applications with databases like MongoDB and MySQL. My understanding of web development best practices, as well as testing and debugging techniques, is a valuable asset that ensures the quality of my work. Through the course, I also acquired excellent problem-solving skills, the ability to work in a team and manage my time efficiently. I am confident that my web development skills and knowledge will enable me to make a valuable contribution to any project or organization."
       },
       {
         id: 3,
         year: "2022 - 2023",
-        graduation: "AWS - Web Hosting and Cloud Computing",
+        graduation: "Ecommerce App - Full Course",
         university: "Udemy",
-        details: "Throughout my Amazon Web Services (AWS) training course, I gained a comprehensive understanding of the wide range of Cloud Computing services that Amazon provides. I learned how to effectively utilize these services to create scalable, manageable Web Application Services. The course began by teaching me the basics of Cloud Computing and how to set up my AWS account. I then went on to learn about the various services available to me, including EC2 instances, Elastic Load Balancers, CloudWatch, CloudFormation, S3, RDS, and Dynamo. I also learned about CloudFront services, ElastiCache, VPC, SNS, SES, SQS, and Route 53. The course culminated in a hands-on project where I created a 3 tier scalable Web Application using the AWS tools I had learned. By the end of the course, I had gained the skills necessary to build, configure, and administer web and cloud services using AWS. With this training, I am fully capable of creating and deploying my own Web Applications using the services provided by AWS."
+        details: "In this course I learnt from the basics how to develop a full ecommerce web app using Python Django Framework and deployment through Amazon AWS. Great project that touches all the main points of a functional secure application."
       }
     ]
   },
@@ -339,7 +356,7 @@ const database = {
       filesource: '../../blog/installing-nodejs-on-your-device.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 3,
@@ -348,7 +365,7 @@ const database = {
       filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 4,
@@ -357,7 +374,7 @@ const database = {
       filesource: '../../blog/boost-your-post-for-increasing-sales.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 5,
@@ -366,7 +383,7 @@ const database = {
       filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 6,
@@ -375,7 +392,7 @@ const database = {
       filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 7,
@@ -384,7 +401,7 @@ const database = {
       filesource: '../../blog/web-automation-with-python-language.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 8,
@@ -393,7 +410,7 @@ const database = {
       filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 9,
@@ -402,16 +419,16 @@ const database = {
       filesource: '../../blog/think-out-of-the-box.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 10,
-      title: 'Trending designs in 2020.',
+      title: 'Trending designs in 2023.',
       featuredImage: '/images/blog-image-1.jpg',
-      filesource: '../../blog/trending-designs-in-2020.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
+      filesource: '../../blog/trending-designs-in-2023.md',
+      createDay: "09",
+      createMonth: 'May',
+      createYear: "2023"
     },
     {
       id: 11,
@@ -420,7 +437,7 @@ const database = {
       filesource: '../../blog/how-to-get-10k-instagram-followers.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 12,
@@ -429,7 +446,7 @@ const database = {
       filesource: '../../blog/what-nodejs-can-do.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 13,
@@ -438,31 +455,31 @@ const database = {
       filesource: '../../blog/future-of-javascript.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 14,
-      title: 'Popular javascript library in 2020.',
+      title: 'Popular javascript library in 2023.',
       featuredImage: '/images/blog-image-5.jpg',
-      filesource: '../../blog/popular-javascript-library-in-2020.md',
+      filesource: '../../blog/popular-javascript-library-in-2023.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     },
     {
       id: 15,
-      title: 'Promrammers must read books.',
+      title: 'Programmers must read books.',
       featuredImage: '/images/blog-image-6.jpg',
       filesource: '../../blog/programmers-must-read-books.md',
       createDay: "20",
       createMonth: 'February',
-      createYear: "2020"
+      createYear: "2023"
     }
   ],
   contactInfo: {
     phoneNumbers: ['+353 83 846 ****', 'Please reach out by email.'],
     emailAddress: ['igor.work02@gmail.com', 'schoolbotytc@gmail.com'],
-    address: "Dublin 9, Dublin - Ireland"
+    address: "Dublin - Ireland"
   }
 }
 
