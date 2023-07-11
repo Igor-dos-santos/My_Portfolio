@@ -8,7 +8,7 @@ const database = {
     phone: '',
     nationality: 'Brazilian & Italian',
     language: 'English, Portuguese, Spanish',
-    email: 'schoolbotytc@gmail.com',
+    email: 'a2sigor@gmail.com',
     address: 'Dublin, Ireland',
     freelanceStatus: 'Available',
     socialLinks: {
@@ -53,7 +53,7 @@ const database = {
       content: "Igor is an exceptional worker - dedicated, hardworking, and a true team player. With his professionalism, positive attitude and contagious enthusiasm, I'm confident he'll go far in his career.",
       author: {
         name: 'Marcus Dawson',
-        designation: 'Button Factory - Manager'
+        designation: 'Button Factory - General Manager'
       }
     },
     {
@@ -61,7 +61,7 @@ const database = {
       content: "I've had the pleasure of working with Igor and can confidently say that he is an exceptional employee. His work ethic, team spirit, and steadfast commitment to excellence are truly impressive.",
       author: {
         name: 'Moises Dall’Agnol',
-        designation: 'Covalen - Regional Manager'
+        designation: 'Covalen - Operational Manager'
       }
     },
         {
@@ -96,7 +96,7 @@ const database = {
     },
     {
       title: "Testing",
-      value: 70
+      value: 75
     }
   ],
   portfolios: [
@@ -138,52 +138,54 @@ const database = {
     {
       id: 4,
       title: "Calculator App",
-      subtitle: "A pen holder with beautiful design.",
+      subtitle: "A simple Calculator app with a beautiful modern design similar to Apple Calculator. Developed on React JS",
       imageUrl: "/images/calculator.png",
       largeImageUrl: ["/images/calculator.png"],
       url: 'https://github.com/Igor-dos-santos/calculator-app'
     },
     {
       id: 5,
-      title: "Game",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "Chess AI Game",
+      subtitle: "A chess game equipped with AI to be played either alone against the AI or with a friend. Beautifully designed in Python.",
+      imageUrl: "/images/chessAI.png",
+      largeImageUrl: ["/images/chessAI.png"],
+      url: '#'
     },
     {
       id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
+      title: "Upcoming projects",
+      subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"],
+      url: '#'
     },
     {
       id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
+      title: "Upcoming projects",
+      subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-7.jpg",
       largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
+      url: '#'
     },
     {
       id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
+      title: "Upcoming projects",
+      subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-8.jpg",
       largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
     },
     {
       id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
+      title: "Upcoming projects",
+      subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-9.jpg",
       largeImageUrl: ["/images/portfolio-image-9-lg.jpg"],
       url: '#'
     },
     {
       id: 10,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
+      title: "Upcoming projects",
+      subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-3.jpg",
       largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
       url: '#'
@@ -244,7 +246,7 @@ const database = {
       featuredImage: '/images/blog-image-1.jpg',
       filesource: '../../blog/1_AI.md',
       createDay: "29",
-      createMonth: 'March',
+      createMonth: 'January',
       createYear: "2023"
     },
     {
@@ -252,7 +254,7 @@ const database = {
       title: 'Installing NodeJS on your device.',
       featuredImage: '/images/blog-image-2.jpg',
       filesource: '../../blog/installing-nodejs-on-your-device.md',
-      createDay: "20",
+      createDay: "05",
       createMonth: 'February',
       createYear: "2023"
     },
@@ -261,7 +263,7 @@ const database = {
       title: 'UI/UX design starter with Adobe XD.',
       featuredImage: '/images/blog-image-3.jpg',
       filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
-      createDay: "20",
+      createDay: "15",
       createMonth: 'February',
       createYear: "2023"
     },
@@ -279,7 +281,7 @@ const database = {
       title: 'Difference between GatsbyJS & NextJS.',
       featuredImage: '/images/blog-image-5.jpg',
       filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
-      createDay: "20",
+      createDay: "25",
       createMonth: 'February',
       createYear: "2023"
     },
@@ -288,8 +290,8 @@ const database = {
       title: 'How to choose javascript framework for project.',
       featuredImage: '/images/blog-image-6.jpg',
       filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "10",
+      createMonth: 'March',
       createYear: "2023"
     },
     {
@@ -298,7 +300,7 @@ const database = {
       featuredImage: '/images/blog-image-7.jpg',
       filesource: '../../blog/web-automation-with-python-language.md',
       createDay: "20",
-      createMonth: 'February',
+      createMonth: 'March',
       createYear: "2023"
     },
     {
@@ -306,8 +308,8 @@ const database = {
       title: 'Time to use latest technology for creating a website.',
       featuredImage: '/images/blog-image-8.jpg',
       filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "10",
+      createMonth: 'April',
       createYear: "2023"
     },
     {
@@ -316,7 +318,7 @@ const database = {
       featuredImage: '/images/blog-image-9.jpg',
       filesource: '../../blog/think-out-of-the-box.md',
       createDay: "20",
-      createMonth: 'February',
+      createMonth: 'April',
       createYear: "2023"
     },
     {
@@ -334,7 +336,7 @@ const database = {
       featuredImage: '/images/blog-image-2.jpg',
       filesource: '../../blog/how-to-get-10k-instagram-followers.md',
       createDay: "20",
-      createMonth: 'February',
+      createMonth: 'May',
       createYear: "2023"
     },
     {
@@ -342,8 +344,8 @@ const database = {
       title: 'What NodeJS can do?',
       featuredImage: '/images/blog-image-3.jpg',
       filesource: '../../blog/what-nodejs-can-do.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "24",
+      createMonth: 'May',
       createYear: "2023"
     },
     {
@@ -351,8 +353,8 @@ const database = {
       title: 'Futures of javascript.',
       featuredImage: '/images/blog-image-4.jpg',
       filesource: '../../blog/future-of-javascript.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "30",
+      createMonth: 'May',
       createYear: "2023"
     },
     {
@@ -360,8 +362,8 @@ const database = {
       title: 'Popular javascript library in 2023.',
       featuredImage: '/images/blog-image-5.jpg',
       filesource: '../../blog/popular-javascript-library-in-2023.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "12",
+      createMonth: 'June',
       createYear: "2023"
     },
     {
@@ -369,14 +371,14 @@ const database = {
       title: 'Programmers must read books.',
       featuredImage: '/images/blog-image-6.jpg',
       filesource: '../../blog/programmers-must-read-books.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "25",
+      createMonth: 'June',
       createYear: "2023"
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+353 83 846 ****', 'Please reach out by email.'],
-    emailAddress: ['igor.work02@gmail.com', 'schoolbotytc@gmail.com'],
+    phoneNumbers: ['+353 83 846 8058', 'Please reach out by email.'],
+    emailAddress: ['a2sigor@gmail.com', 'igor.work02@gmail.com'],
     address: "Dublin - Ireland"
   }
 }
