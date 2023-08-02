@@ -17,10 +17,10 @@ const database = {
       linkedin: 'https://www.linkedin.com/in/igor-dos-santos/',
       github: 'https://github.com/Igor-dos-santos'
     },
-    brandImage: '/images/brand-image.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/Igor-Dos-Santos-CV.pdf'
+    brandImage: './images/brand-image.jpg',
+    aboutImage: './images/about-image.jpg',
+    aboutImageLg: './images/about-image-lg.jpg',
+    cvfile: './files/Igor-Dos-Santos-CV.pdf'
   },
   services: [
     {
@@ -106,8 +106,8 @@ const database = {
       subtitle: "An awesome ecommerce app for a clothes store. This app was developed using Python and Django Framework. Deployed on Amazon AWS and has security features necessary",
       imageUrl: "/images/portfolio-image-1.jpg",
       largeImageUrl: [
-      "/images/portfolio-image-1-lg.jpg",
-      "/images/portfolio-image-1-lg2.jpg"
+      "./images/portfolio-image-1-lg.jpg",
+      "./images/portfolio-image-1-lg2.jpg"
       ],
       url: 'https://github.com/Igor-dos-santos/ShopCart'
     },
