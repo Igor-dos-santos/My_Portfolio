@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Igor-dos-santos.github.io/My_Portfolio",
   "name": "tf-react-chester",
   "version": "4.6.0",
   "license": "MIT",
@@ -27,6 +28,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
