@@ -104,7 +104,7 @@ const database = {
       id: 1,
       title: "Shop Cart - An Ecommerce web app",
       subtitle: "An awesome ecommerce app for a clothes store. This app was developed using Python and Django Framework. Deployed on Amazon AWS and has security features necessary",
-      imageUrl: "/images/portfolio-image-1.jpg",
+      imageUrl: "./images/portfolio-image-1.jpg",
       largeImageUrl: [
       "./images/portfolio-image-1-lg.jpg",
       "./images/portfolio-image-1-lg2.jpg"
@@ -115,10 +115,10 @@ const database = {
       id: 2,
       title: "Want A Byte - OWASP App",
       subtitle: "A restaurant app to exercise OWASP principles. Control user authentication and safeguard routes with Passport.js and Auth0. Pug templates are used on the front end to render views, while CSS is used to maintain style sheets.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      imageUrl: "./images/portfolio-image-4.jpg",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/wantabyte2.png"
+        "./images/portfolio-image-4-lg.jpg",
+        "./images/wantabyte2.png"
       ],
       url: 'https://github.com/Igor-dos-santos/WantAByte'
     },
@@ -126,12 +126,12 @@ const database = {
       id: 3,
       title: "My Recipe App - Recipes Web App",
       subtitle: "This is a recipes app that generates recipes based on saved ingredients. It also provides you a shopping list for your saved recipes. Users can log in to have access to these features.",
-      imageUrl: "/images/recipeapp.png",
+      imageUrl: "./images/recipeapp.png",
       largeImageUrl: [
-      "/images/recipeapp.png",
-      "/images/sign-up-lg.png",
-      "/images/food-page copy-lg.png",
-      "/images/recipeapp-lg.jpg"
+      "./images/recipeapp.png",
+      "./images/sign-up-lg.png",
+      "./images/food-page copy-lg.png",
+      "./images/recipeapp-lg.jpg"
       ],
       url: 'https://github.com/Igor-dos-santos/OWASP_APP'
     },
@@ -139,55 +139,55 @@ const database = {
       id: 4,
       title: "Calculator App",
       subtitle: "A simple Calculator app with a beautiful modern design similar to Apple Calculator. Developed on React JS",
-      imageUrl: "/images/calculator.png",
-      largeImageUrl: ["/images/calculator.png"],
+      imageUrl: "./images/calculator.png",
+      largeImageUrl: ["./images/calculator.png"],
       url: 'https://github.com/Igor-dos-santos/calculator-app'
     },
     {
       id: 5,
       title: "Chess AI Game",
       subtitle: "A chess game equipped with AI to be played either alone against the AI or with a friend. Beautifully designed in Python.",
-      imageUrl: "/images/chessAI.png",
-      largeImageUrl: ["/images/chessAI.png"],
+      imageUrl: "./images/chessAI.png",
+      largeImageUrl: ["./images/chessAI.png"],
       url: '#'
     },
     {
       id: 6,
       title: "Upcoming projects",
       subtitle: "New Updates soon",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"],
+      imageUrl: "./images/portfolio-image-6.jpg",
+      largeImageUrl: ["./images/portfolio-image-6-lg.jpg"],
       url: '#'
     },
     {
       id: 7,
       title: "Upcoming projects",
       subtitle: "New Updates soon",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
+      imageUrl: "./images/portfolio-image-7.jpg",
+      largeImageUrl: ["./images/portfolio-image-7-lg.jpg"],
       url: '#'
     },
     {
       id: 8,
       title: "Upcoming projects",
       subtitle: "New Updates soon",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
+      imageUrl: "./images/portfolio-image-8.jpg",
+      largeImageUrl: ["./images/portfolio-image-8-lg.jpg"]
     },
     {
       id: 9,
       title: "Upcoming projects",
       subtitle: "New Updates soon",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"],
+      imageUrl: "./images/portfolio-image-9.jpg",
+      largeImageUrl: ["./images/portfolio-image-9-lg.jpg"],
       url: '#'
     },
     {
       id: 10,
       title: "Upcoming projects",
       subtitle: "New Updates soon",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      imageUrl: "./images/portfolio-image-3.jpg",
+      largeImageUrl: ["./images/portfolio-image-3-lg.jpg"],
       url: '#'
     }
   ],
@@ -243,7 +243,7 @@ const database = {
     {
       id: 1,
       title: 'AI: The Future is Here, But Are We Ready?',
-      featuredImage: '/images/blog-image-1.jpg',
+      featuredImage: './images/blog-image-1.jpg',
       filesource: '../../blog/1_AI.md',
       createDay: "29",
       createMonth: 'January',
@@ -252,7 +252,7 @@ const database = {
     {
       id: 2,
       title: 'Installing NodeJS on your device.',
-      featuredImage: '/images/blog-image-2.jpg',
+      featuredImage: './images/blog-image-2.jpg',
       filesource: '../../blog/installing-nodejs-on-your-device.md',
       createDay: "05",
       createMonth: 'February',
@@ -261,7 +261,7 @@ const database = {
     {
       id: 3,
       title: 'UI/UX design starter with Adobe XD.',
-      featuredImage: '/images/blog-image-3.jpg',
+      featuredImage: './images/blog-image-3.jpg',
       filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
       createDay: "15",
       createMonth: 'February',
@@ -270,7 +270,7 @@ const database = {
     {
       id: 4,
       title: 'Boost your post for increasing sales.',
-      featuredImage: '/images/blog-image-4.jpg',
+      featuredImage: './images/blog-image-4.jpg',
       filesource: '../../blog/boost-your-post-for-increasing-sales.md',
       createDay: "20",
       createMonth: 'February',
@@ -279,7 +279,7 @@ const database = {
     {
       id: 5,
       title: 'Difference between GatsbyJS & NextJS.',
-      featuredImage: '/images/blog-image-5.jpg',
+      featuredImage: './images/blog-image-5.jpg',
       filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
       createDay: "25",
       createMonth: 'February',
@@ -288,7 +288,7 @@ const database = {
     {
       id: 6,
       title: 'How to choose javascript framework for project.',
-      featuredImage: '/images/blog-image-6.jpg',
+      featuredImage: './images/blog-image-6.jpg',
       filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
       createDay: "10",
       createMonth: 'March',
@@ -297,7 +297,7 @@ const database = {
     {
       id: 7,
       title: 'Web automation with python language.',
-      featuredImage: '/images/blog-image-7.jpg',
+      featuredImage: './images/blog-image-7.jpg',
       filesource: '../../blog/web-automation-with-python-language.md',
       createDay: "20",
       createMonth: 'March',
@@ -306,7 +306,7 @@ const database = {
     {
       id: 8,
       title: 'Time to use latest technology for creating a website.',
-      featuredImage: '/images/blog-image-8.jpg',
+      featuredImage: './images/blog-image-8.jpg',
       filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
       createDay: "10",
       createMonth: 'April',
@@ -315,7 +315,7 @@ const database = {
     {
       id: 9,
       title: 'Think out of the box.',
-      featuredImage: '/images/blog-image-9.jpg',
+      featuredImage: './images/blog-image-9.jpg',
       filesource: '../../blog/think-out-of-the-box.md',
       createDay: "20",
       createMonth: 'April',
@@ -324,7 +324,7 @@ const database = {
     {
       id: 10,
       title: 'Trending designs in 2023.',
-      featuredImage: '/images/blog-image-1.jpg',
+      featuredImage: './images/blog-image-1.jpg',
       filesource: '../../blog/trending-designs-in-2023.md',
       createDay: "09",
       createMonth: 'May',
@@ -333,7 +333,7 @@ const database = {
     {
       id: 11,
       title: 'How to get 10k instagram followers?',
-      featuredImage: '/images/blog-image-2.jpg',
+      featuredImage: './images/blog-image-2.jpg',
       filesource: '../../blog/how-to-get-10k-instagram-followers.md',
       createDay: "20",
       createMonth: 'May',
@@ -342,7 +342,7 @@ const database = {
     {
       id: 12,
       title: 'What NodeJS can do?',
-      featuredImage: '/images/blog-image-3.jpg',
+      featuredImage: './images/blog-image-3.jpg',
       filesource: '../../blog/what-nodejs-can-do.md',
       createDay: "24",
       createMonth: 'May',
@@ -351,7 +351,7 @@ const database = {
     {
       id: 13,
       title: 'Futures of javascript.',
-      featuredImage: '/images/blog-image-4.jpg',
+      featuredImage: './images/blog-image-4.jpg',
       filesource: '../../blog/future-of-javascript.md',
       createDay: "30",
       createMonth: 'May',
@@ -360,7 +360,7 @@ const database = {
     {
       id: 14,
       title: 'Popular javascript library in 2023.',
-      featuredImage: '/images/blog-image-5.jpg',
+      featuredImage: './images/blog-image-5.jpg',
       filesource: '../../blog/popular-javascript-library-in-2023.md',
       createDay: "12",
       createMonth: 'June',
@@ -369,7 +369,7 @@ const database = {
     {
       id: 15,
       title: 'Programmers must read books.',
-      featuredImage: '/images/blog-image-6.jpg',
+      featuredImage: './images/blog-image-6.jpg',
       filesource: '../../blog/programmers-must-read-books.md',
       createDay: "25",
       createMonth: 'June',
