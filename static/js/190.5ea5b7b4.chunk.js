@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktf_react_chester=self.webpackChunktf_react_chester||[]).push([[190],{2190:function(e,t,s){e.exports=s.p+"static/media/uiux-design-starter-with-adobe-xd.ff18ebc72bf94543e5d9.md"}}]);
