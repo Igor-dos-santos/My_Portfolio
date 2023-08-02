@@ -10,7 +10,7 @@
     "fslightbox-react": "^1.6.2",
     "markdown-to-jsx": "^7.1.7",
     "node-sass": "^8.0.0",
-    "react": "^17.0.2",
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-feather": "^2.0.10",
     "react-helmet": "^6.1.0",
@@ -29,11 +29,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x"
+    "eject": "react-scripts eject",
+    "heroku-login": "heroku-cli-login"
   },
   "browserslist": {
     "production": [
