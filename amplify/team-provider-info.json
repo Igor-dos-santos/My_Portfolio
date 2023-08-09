@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-portfolioigor-dev-140737-authRole",
+      "UnauthRoleArn": "arn:aws:iam::718454600537:role/amplify-portfolioigor-dev-140737-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::718454600537:role/amplify-portfolioigor-dev-140737-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-portfolioigor-dev-140737-deployment",
+      "UnauthRoleName": "amplify-portfolioigor-dev-140737-unauthRole",
+      "StackName": "amplify-portfolioigor-dev-140737",
+      "StackId": "arn:aws:cloudformation:us-west-2:718454600537:stack/amplify-portfolioigor-dev-140737/63f54550-3523-11ee-9048-02a123475e4b",
+      "AmplifyAppId": "d6r9es3l1ccdl"
+    },
+    "categories": {
+      "function": {
+        "portfolioigore48064cd": {
+          "deploymentBucketName": "amplify-portfolioigor-dev-140737-deployment",
+          "s3Key": "amplify-builds/portfolioigore48064cd-7450546a6644484c6963-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d6r9es3l1ccdl",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
