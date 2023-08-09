@@ -48,7 +48,7 @@ function App() {
         <Route path="portfolios" element={<Portfolios />} />
         <Route path="blogs" element={<Blogs />} />
         <Route path="blogs/:id/:title" element={<BlogDetails />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<Contact />} />        
         <Route path="*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>
