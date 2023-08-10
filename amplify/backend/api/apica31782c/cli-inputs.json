@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "portfolioigora53d8621",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

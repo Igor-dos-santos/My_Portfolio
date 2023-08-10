@@ -1,5 +1,26 @@
 {
+  "api": {
+    "apica31782c": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "portfolioigora53d8621"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "function": {
+    "portfolioigora53d8621": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "portfolioigore48064cd": {
       "build": true,
       "dependsOn": [],
@@ -15,6 +36,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_portfolioigora53d8621_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "portfolioigora53d8621"
+        }
+      ]
+    },
+    "AMPLIFY_function_portfolioigora53d8621_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "portfolioigora53d8621"
+        }
+      ]
+    },
     "AMPLIFY_function_portfolioigore48064cd_deploymentBucketName": {
       "usedBy": [
         {

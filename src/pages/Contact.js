@@ -188,12 +188,10 @@ function Contact() {
                       </span>
                       <div className="mi-contact-infoblock-content">
                         <h6>Phone</h6>
-                        {phoneNumbers.map((phoneNumber) => (
-                          <p key={phoneNumber}>
-                            <a href={numberFormatter(phoneNumber)}>
+                        {phoneNumbers.map((phoneNumber) => (                          
+                            <p>
                               {phoneNumber}
-                            </a>
-                          </p>
+                            </p>                          
                         ))}
                       </div>
                     </div>
@@ -207,7 +205,7 @@ function Contact() {
                         <h6>Email</h6>
                         {emailAddress.map((email) => (
                           <p key={email}>
-                            <a href={`mailto:${email}`}>{email}</a>
+                            <a href={`mailto:${email}`} target="_blank">{email}</a>
                           </p>
                         ))}
                       </div>

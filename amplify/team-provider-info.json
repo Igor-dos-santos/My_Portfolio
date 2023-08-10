@@ -25,5 +25,39 @@
         }
       }
     }
+  },
+  "portfolio": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-portfolioigor-portfolio-130951-authRole",
+      "UnauthRoleArn": "arn:aws:iam::718454600537:role/amplify-portfolioigor-portfolio-130951-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::718454600537:role/amplify-portfolioigor-portfolio-130951-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-portfolioigor-portfolio-130951-deployment",
+      "UnauthRoleName": "amplify-portfolioigor-portfolio-130951-unauthRole",
+      "StackName": "amplify-portfolioigor-portfolio-130951",
+      "StackId": "arn:aws:cloudformation:us-west-2:718454600537:stack/amplify-portfolioigor-portfolio-130951/d171aa60-3776-11ee-a3df-0a564b27ba13",
+      "AmplifyAppId": "d6r9es3l1ccdl"
+    },
+    "categories": {
+      "function": {
+        "portfolioigore48064cd": {
+          "deploymentBucketName": "amplify-portfolioigor-portfolio-130951-deployment",
+          "s3Key": "amplify-builds/portfolioigore48064cd-7450546a6644484c6963-build.zip"
+        },
+        "portfolioigora53d8621": {
+          "deploymentBucketName": "amplify-portfolioigor-portfolio-130951-deployment",
+          "s3Key": "amplify-builds/portfolioigora53d8621-503977773568786d4976-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d6r9es3l1ccdl",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "apica31782c": {}
+      }
+    }
   }
 }

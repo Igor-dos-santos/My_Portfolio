@@ -390,7 +390,7 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+353 83 846 8058', 'Please reach out by email.'],
+    phoneNumbers: ['+353 83 846 8058', 'Whatsapp'],
     emailAddress: ['a2sigor@gmail.com', 'igor.work02@gmail.com'],
     address: "Dublin - Ireland"
   }
