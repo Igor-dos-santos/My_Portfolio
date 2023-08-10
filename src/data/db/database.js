@@ -24,19 +24,19 @@ const database = {
   },
   services: [
     {
-      title: "Web Design",
-      icon: 'brush-alt',
-      details: "Innovative, user-centric, and responsive web design with a creative touch."
+      title: "Software Development",
+      icon: 'code',
+      details: "I'm a dynamic software developer adept at crafting user-centric applications. My skills span JavaScript, Python, and more, enabling me to create seamless, visually appealing interfaces. With a passion for elegant solutions, I thrive on turning complex challenges into user-friendly experiences."
     },
     {
       title: "Web Development",
-      icon: 'code',
-      details: "Front-end: HTML, CSS, JavaScript, React, Vue. Back-end: Java, Node.js, Python, Ruby, SQL, RESTful APIs"
+      icon: 'laptop',
+      details: "Web Developer specializing in both front-end and back-end technologies. Proficient in crafting engaging user interfaces using HTML, CSS, and JavaScript frameworks such as React. Skilled in Java, Node.js, Python, Ruby, and SQL for building robust and scalable back-end systems. Experienced in designing RESTful APIs for seamless communication between front-end and back-end components."
     },
     {
-      title: "Mobile Application",
-      icon: 'mobile',
-      details: "Proficient in building responsive and interactive mobile applications using top-notch frameworks that ensure cross-device compatibility."
+      title: "DevOps Engineer",
+      icon: 'cogs',
+      details: "I'm a DevOps Engineer specializing in streamlining software delivery through automation and collaboration. With expertise in scalable infrastructure, Docker, Kubernetes, and CI/CD pipelines, I optimize workflows, enhance efficiency, and elevate release quality. My focus is on fostering a culture of continuous improvement and delivering innovative solutions that enable agile and precise product development."
     }
   ],
   reviews: [
@@ -61,7 +61,7 @@ const database = {
       content: "I've had the pleasure of working with Igor and can confidently say that he is an exceptional employee. His work ethic, team spirit, and steadfast commitment to excellence are truly impressive.",
       author: {
         name: 'Raphael Pagliuca',
-        designation: 'Covalen - Operational Manager'
+        designation: 'Covalen - Team Leader'
       }
     },
         {
@@ -83,7 +83,7 @@ const database = {
       value: 85
     },
     {
-      title: "Git & GitHub",
+      title: "Git",
       value: 95
     },
     {
@@ -107,7 +107,13 @@ const database = {
       imageUrl: "/images/portfolio-image-1.jpg",
       largeImageUrl: [
       "/images/portfolio-image-1-lg.jpg",
-      "/images/portfolio-image-1-lg2.jpg"
+      "/images/portfolio-image-1-lg2.jpg",
+      "/images/portfolio-image-2-sc.jpg",
+      "/images/portfolio-image-3-sc.jpg",
+      "/images/portfolio-image-4-sc.jpg",
+      "/images/portfolio-image-5-sc.jpg",
+      "/images/portfolio-image-6-sc.jpg",
+      "/images/rainbowCover.png"
       ],
       url: 'https://github.com/Igor-dos-santos/ShopCart'
     },
@@ -149,7 +155,7 @@ const database = {
       subtitle: "A chess game equipped with AI to be played either alone against the AI or with a friend. Beautifully designed in Python.",
       imageUrl: "/images/chessAI.png",
       largeImageUrl: ["/images/chessAI.png"],
-      url: '#'
+      url: '/portfolios'
     },
     {
       id: 6,
@@ -157,7 +163,7 @@ const database = {
       subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-6.jpg",
       largeImageUrl: ["/images/portfolio-image-6-lg.jpg"],
-      url: '#'
+      url: '/portfolios'
     },
     {
       id: 7,
@@ -165,7 +171,7 @@ const database = {
       subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-7.jpg",
       largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: '#'
+      url: '/portfolios'
     },
     {
       id: 8,
@@ -180,7 +186,7 @@ const database = {
       subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-9.jpg",
       largeImageUrl: ["/images/portfolio-image-9-lg.jpg"],
-      url: '#'
+      url: '/portfolios'
     },
     {
       id: 10,
@@ -188,27 +194,34 @@ const database = {
       subtitle: "New Updates soon",
       imageUrl: "/images/portfolio-image-3.jpg",
       largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+      url: '/portfolios'
     }
   ],
   experience: {
     workingExperience: [
       {
         id: 1,
+        year: "06/2023 - Present",
+        position: "Generative AI Annotator",
+        company: "Covalen - Ireland",
+        details: "In my role as a Generative AI Annotator, I have actively contributed to the refinement of AI chat bot capabilities by analyzing and providing insightful observations on annotated data. I have undertaken comprehensive research to identify emerging entity categories and organized them effectively, contributing to the creation of guidelines. Through deep data analysis, I've generated annotations, reports, and actionable suggestions that have facilitated the development of enhanced data organization and representation. This experience has not only honed my English language proficiency but also allowed me to contribute significantly to the advancement of AI technology within the team."
+      },
+      {
+        id: 2,
         year: "09/2021 - Present",
         position: "Senior Legal Operations Analyst",
         company: "Covalen - Ireland",
         details: "As a senior Legal Operations Analyst at BCL Project in Dublin, I perform and provide troubleshooting solutions to complex issues in social media platforms with urgent cases based on court orders, short deadlines, and substantial fines. My speed, agility, and problem-solving skills have helped my company avoid potential legal consequences many times over. Adapting to new policies, political transitions, and law enforcement has expanded my skill set and improved my tolerance to stress and pressure. As an IT professional, I ensure meticulous attention to detail and data analysis to apply company rules and standards to influential social media accounts. I have experience translating complex technological terms into simplified language and exceptional professionalism working remotely."
       },
       {
-        id: 2,
+        id: 3,
         year: "11/2020 - 09/2021",
         position: "Operations Analyst",
         company: "Covalen - Ireland",
         details: "As an Operations Analyst at Covalen, I excelled in validating, investigating, and responding to cyber inquiries within established guidelines and policies. My ability to ramp up quickly and achieve trainer status in multiple areas of the job highlights my quick mastery of the tools and software necessary for the job. I am proficient in data analysis, report creation, and project governance using Tableau and Trello, with exceptional attention to Microsoft Office tools, particularly MS Excel. I work responsibly with deadlines and can manage a busy agenda filled with meetings and reports with ease."
       },
       {
-        id: 3,
+        id: 4,
         year: "11/2018 - 11/2020",
         position: "Bar Manager",
         company: "Button Factory, Temple Bar - Ireland",
@@ -225,17 +238,17 @@ const database = {
       },
       {
         id: 2,
+        year: "2022 - 2023",
+        graduation: "Ecommerce App - Full Course",
+        university: "Udemy",
+        details: "Through the comprehensive Udemy course E-commerce App - Full Course, I gained invaluable insights into developing a dynamic e-commerce web application using the robust Python Django Framework. This course guided me from the basics to advanced stages, allowing me to create a fully functional and secure online shopping platform. I learned to implement key features like user authentication, cart management, smart search, and secure payment processing. The course also covered Amazon AWS deployment, ensuring a seamless user experience on a global scale. This project enabled me to grasp the intricacies of e-commerce development while emphasizing security measures like secure password storage and PCI-compliant payment processing. Overall, the course provided me with a comprehensive skill set to create modern, user-friendly, and secure e-commerce applications."
+      },
+      {
+        id: 3,
         year: "2021 - 2022",
         graduation: "Wed Development Course",
         university: "Udemy",
         details: "During my web development course, I acquired a broad range of skills that enabled me to develop dynamic and interactive web pages. I gained expertise in HTML, CSS, Bootstrap, JavaScript, and various front-end frameworks such as React, Angular, and Vue.js. Additionally, I developed my back-end development skills using Node.js and PHP, enabling me to develop full-stack web applications with databases like MongoDB and MySQL. My understanding of web development best practices, as well as testing and debugging techniques, is a valuable asset that ensures the quality of my work. Through the course, I also acquired excellent problem-solving skills, the ability to work in a team and manage my time efficiently. I am confident that my web development skills and knowledge will enable me to make a valuable contribution to any project or organization."
-      },
-      {
-        id: 3,
-        year: "2022 - 2023",
-        graduation: "Ecommerce App - Full Course",
-        university: "Udemy",
-        details: "In this course I learnt from the basics how to develop a full ecommerce web app using Python Django Framework and deployment through Amazon AWS. Great project that touches all the main points of a functional secure application."
       }
     ]
   },
@@ -245,8 +258,8 @@ const database = {
       title: 'AI: The Future is Here, But Are We Ready?',
       featuredImage: '/images/blog-image-1.jpg',
       filesource: '../../blog/1_AI.md',
-      createDay: "29",
-      createMonth: 'January',
+      createDay: "10",
+      createMonth: 'August',
       createYear: "2023"
     },
     {
@@ -255,7 +268,7 @@ const database = {
       featuredImage: '/images/blog-image-2.jpg',
       filesource: '../../blog/installing-nodejs-on-your-device.md',
       createDay: "05",
-      createMonth: 'February',
+      createMonth: 'August',
       createYear: "2023"
     },
     {
@@ -264,7 +277,7 @@ const database = {
       featuredImage: '/images/blog-image-3.jpg',
       filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
       createDay: "15",
-      createMonth: 'February',
+      createMonth: 'July',
       createYear: "2023"
     },
     {
@@ -272,8 +285,8 @@ const database = {
       title: 'Boost your post for increasing sales.',
       featuredImage: './images/blog-image-4.jpg',
       filesource: '../../blog/boost-your-post-for-increasing-sales.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "05",
+      createMonth: 'July',
       createYear: "2023"
     },
     {
@@ -281,8 +294,8 @@ const database = {
       title: 'Difference between GatsbyJS & NextJS.',
       featuredImage: '/images/blog-image-5.jpg',
       filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
-      createDay: "25",
-      createMonth: 'February',
+      createDay: "20",
+      createMonth: 'June',
       createYear: "2023"
     },
     {
@@ -290,8 +303,8 @@ const database = {
       title: 'How to choose javascript framework for project.',
       featuredImage: '/images/blog-image-6.jpg',
       filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
-      createDay: "10",
-      createMonth: 'March',
+      createDay: "01",
+      createMonth: 'June',
       createYear: "2023"
     },
     {
@@ -300,7 +313,7 @@ const database = {
       featuredImage: '/images/blog-image-7.jpg',
       filesource: '../../blog/web-automation-with-python-language.md',
       createDay: "20",
-      createMonth: 'March',
+      createMonth: 'May',
       createYear: "2023"
     },
     {
@@ -308,7 +321,7 @@ const database = {
       title: 'Time to use latest technology for creating a website.',
       featuredImage: '/images/blog-image-8.jpg',
       filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
-      createDay: "10",
+      createDay: "15",
       createMonth: 'April',
       createYear: "2023"
     },
@@ -317,7 +330,7 @@ const database = {
       title: 'Think out of the box.',
       featuredImage: './images/blog-image-9.jpg',
       filesource: '../../blog/think-out-of-the-box.md',
-      createDay: "20",
+      createDay: "03",
       createMonth: 'April',
       createYear: "2023"
     },
@@ -326,8 +339,8 @@ const database = {
       title: 'Trending designs in 2023.',
       featuredImage: '/images/blog-image-1.jpg',
       filesource: '../../blog/trending-designs-in-2023.md',
-      createDay: "09",
-      createMonth: 'May',
+      createDay: "22",
+      createMonth: 'March',
       createYear: "2023"
     },
     {
@@ -335,8 +348,8 @@ const database = {
       title: 'How to get 10k instagram followers?',
       featuredImage: '/images/blog-image-2.jpg',
       filesource: '../../blog/how-to-get-10k-instagram-followers.md',
-      createDay: "20",
-      createMonth: 'May',
+      createDay: "01",
+      createMonth: 'March',
       createYear: "2023"
     },
     {
@@ -345,7 +358,7 @@ const database = {
       featuredImage: './images/blog-image-3.jpg',
       filesource: '../../blog/what-nodejs-can-do.md',
       createDay: "24",
-      createMonth: 'May',
+      createMonth: 'February',
       createYear: "2023"
     },
     {
@@ -353,8 +366,8 @@ const database = {
       title: 'Futures of javascript.',
       featuredImage: '/images/blog-image-4.jpg',
       filesource: '../../blog/future-of-javascript.md',
-      createDay: "30",
-      createMonth: 'May',
+      createDay: "12",
+      createMonth: 'February',
       createYear: "2023"
     },
     {
@@ -362,8 +375,8 @@ const database = {
       title: 'Popular javascript library in 2023.',
       featuredImage: '/images/blog-image-5.jpg',
       filesource: '../../blog/popular-javascript-library-in-2023.md',
-      createDay: "12",
-      createMonth: 'June',
+      createDay: "08",
+      createMonth: 'February',
       createYear: "2023"
     },
     {
@@ -372,7 +385,7 @@ const database = {
       featuredImage: '/images/blog-image-6.jpg',
       filesource: '../../blog/programmers-must-read-books.md',
       createDay: "25",
-      createMonth: 'June',
+      createMonth: 'January',
       createYear: "2023"
     }
   ],

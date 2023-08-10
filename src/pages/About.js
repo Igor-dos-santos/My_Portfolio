@@ -18,14 +18,14 @@ function About() {
   const [reviews, setReviews] = useState([]);
 
   const sliderSettings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    arrows: false,
+    arrows: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     adaptiveHeight: true,
     responsive: [

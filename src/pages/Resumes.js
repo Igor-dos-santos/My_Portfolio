@@ -55,6 +55,10 @@ function Resumes() {
         <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
             <Sectiontitle title="Resume" />
+            <a href="/files/Igor-Dos-Santos-CV.pdf" className="mi-button" target="_blank" download>Download CV</a>
+            <br/>
+            <br/>
+            <br/>
             <Smalltitle title="Working Experience" icon="briefcase" />
             <div className="mi-resume-wrapper">
               {workingExperience.map((workingExp) => (

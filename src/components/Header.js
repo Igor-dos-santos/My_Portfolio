@@ -77,7 +77,7 @@ function Header() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://youtube.com/@school-bot"
+              href="https://github.com/Igor-dos-santos"
             >
               Igor Dos Santos
             </a>

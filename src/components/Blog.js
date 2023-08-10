@@ -20,7 +20,7 @@ function Blog(props) {
         <Link to={`${id}/${getNospaceTitle(filesource)}`}>
           <ProgressiveImage
             src={featuredImage}
-            placeholder="./images/blog-image-placeholder.png"
+            placeholder="/images/blog-image-placeholder.png"
           >
             {(src) => <img src={src} alt={title} />}
           </ProgressiveImage>

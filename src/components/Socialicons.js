@@ -39,9 +39,9 @@ function Socialicons(props){
           <LineIcon name="linkedin"/>
         </a>
       </li>}
-      {!socialLinks.dribbble ? null : <li>
-        <a rel="noopener noreferrer" target="_blank" href={socialLinks.dribbble}>
-          <LineIcon name="dribbble"/>
+      {!socialLinks.instagram ? null : <li>
+        <a rel="noopener noreferrer" target="_blank" href={socialLinks.instagram}>
+          <LineIcon name="instagram"/>
         </a>
       </li>}
       {!socialLinks.github ? null : <li>
