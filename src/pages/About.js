@@ -95,13 +95,16 @@ function About() {
               <div className="col-lg-6">
                 <div className="mi-about-content">
                   <h3>
-                    I am <span className="color-theme">{information.name}</span>
+                    Hi I'm <span className="color-theme">{information.name}</span>
                   </h3>
+                  <br/>                  
                   <p>
-                    I am a frontend web developer who can provide clean code and
-                    pixel perfect design. I also make website more & more
-                    interactive with web animations.
+                  I'm a versatile developer passionate about clean, pixel-perfect frontend design and crafting highly interactive websites through web animations. 
+                  My expertise extends across Python, React JS, Ruby on Rails, and web development languages, as well as Bootstrap, DevOps, Cloud Computing, OOP, and Java. 
+                  As a remote work enthusiast, I'm eager to collaborate on projects worldwide. Let's create something amazing together. 
+                  You can find more ways to get in touch on my Contact page.                  
                   </p>
+                  <br/>
                   <ul>
                     {!information.name ? null : (
                       <li>
@@ -144,9 +147,6 @@ function About() {
                       </li>
                     )}
                   </ul>
-                  <a href={information.cvfile} className="mi-button" target="_blank">
-                    Download CV
-                  </a>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ function About() {
           <div className="container">
             <Sectiontitle title="Reviews" />
             <div className="row justify-content-center">
-              <div className="col-12">
+              <div className="col-12">                
                 <Slider className="mi-testimonial-slider" {...sliderSettings}>
                   {reviews.map((review) => (
                     <Testimonial key={review.id} content={review} />

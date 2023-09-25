@@ -47,7 +47,7 @@ function Header() {
           </li>
           <li>
             <NavLink to="/about">
-              <span>About</span>
+              <span>About Me</span>
             </NavLink>
           </li>
           <li>

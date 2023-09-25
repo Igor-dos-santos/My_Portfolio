@@ -47,6 +47,10 @@
         "portfolioigora53d8621": {
           "deploymentBucketName": "amplify-portfolioigor-portfolio-130951-deployment",
           "s3Key": "amplify-builds/portfolioigora53d8621-503977773568786d4976-build.zip"
+        },
+        "portfolioigor2b5eae31": {
+          "deploymentBucketName": "amplify-portfolioigor-portfolio-130951-deployment",
+          "s3Key": "amplify-builds/portfolioigor2b5eae31-6a4e456b32694e584141-build.zip"
         }
       },
       "hosting": {
@@ -57,6 +61,45 @@
       },
       "api": {
         "apica31782c": {}
+      }
+    }
+  },
+  "igords": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-portfolioigor-igords-160725-authRole",
+      "UnauthRoleArn": "arn:aws:iam::718454600537:role/amplify-portfolioigor-igords-160725-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::718454600537:role/amplify-portfolioigor-igords-160725-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-portfolioigor-igords-160725-deployment",
+      "UnauthRoleName": "amplify-portfolioigor-igords-160725-unauthRole",
+      "StackName": "amplify-portfolioigor-igords-160725",
+      "StackId": "arn:aws:cloudformation:us-west-2:718454600537:stack/amplify-portfolioigor-igords-160725/a1716bc0-378f-11ee-b4e4-029461fe4a33",
+      "AmplifyAppId": "d1wr7w2a5xf6zf"
+    },
+    "categories": {
+      "function": {
+        "portfolioigor2b5eae31": {
+          "deploymentBucketName": "amplify-portfolioigor-igords-160725-deployment",
+          "s3Key": "amplify-builds/portfolioigor2b5eae31-6a4e456b32694e584141-build.zip"
+        },
+        "portfolioigora53d8621": {
+          "deploymentBucketName": "amplify-portfolioigor-igords-160725-deployment",
+          "s3Key": "amplify-builds/portfolioigora53d8621-503977773568786d4976-build.zip"
+        },
+        "portfolioigore48064cd": {
+          "deploymentBucketName": "amplify-portfolioigor-igords-160725-deployment",
+          "s3Key": "amplify-builds/portfolioigore48064cd-7450546a6644484c6963-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1wr7w2a5xf6zf",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "apica31782c": {},
+        "apid308f0b7": {}
       }
     }
   }

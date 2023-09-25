@@ -8,7 +8,21 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "portfolioigora53d8621"
+          "resourceName": "portfolioigor2b5eae31"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "apid308f0b7": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "portfolioigor2b5eae31"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -16,6 +30,11 @@
     }
   },
   "function": {
+    "portfolioigor2b5eae31": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "portfolioigora53d8621": {
       "build": true,
       "providerPlugin": "awscloudformation",
@@ -36,6 +55,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_portfolioigor2b5eae31_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "portfolioigor2b5eae31"
+        }
+      ]
+    },
+    "AMPLIFY_function_portfolioigor2b5eae31_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "portfolioigor2b5eae31"
+        }
+      ]
+    },
     "AMPLIFY_function_portfolioigora53d8621_deploymentBucketName": {
       "usedBy": [
         {

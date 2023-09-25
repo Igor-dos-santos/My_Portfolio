@@ -3,11 +3,11 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Igor Dos Santos',
-    aboutContent: "Welcome to my portfolio website, where I bring together my passion for clean, visually-precise code and talk about my expertise in web animation to create stunning, user-centric experiences. As a frontend web developer, I am dedicated to crafting websites that not only look great but also provide seamless functionality and intuitive navigation. From pixel-perfect layouts to captivating animations, I specialise in building websites that engage and delight users. Join me on a journey to elevate your online presence and take your brand to the next level with visually stunning web development.",
+    aboutContent: "Welcome to my portfolio website, where I showcase my prowess in software development across various domains. With a strong command of Python, React JS, Ruby on Rails, and a host of web development languages, I am well-versed in crafting elegant and efficient solutions. My expertise extends beyond code; I excel in leveraging Bootstrap for responsive design, implementing DevOps practices for seamless project workflows, and harnessing the power of Cloud Computing for scalable applications. Object-Oriented Programming (OOP) and Java are fundamental tools in my kit, allowing me to architect robust and maintainable systems. As a full-stack developer, I am committed to not only delivering aesthetically pleasing websites but also ensuring they offer flawless functionality and intuitive user experiences. From pixel-perfect layouts to captivating animations, I specialize in creating websites that captivate and engage users. Join me on a journey to enhance your online presence and elevate your brand to new heights through visually stunning web development. Let's turn your ideas into digital reality.",
     age: 28,
     phone: '',
     nationality: 'Brazilian & Italian',
-    language: 'English, Portuguese, Spanish',
+    language: 'English, Portuguese, Spanish, Italian',
     email: 'a2sigor@gmail.com',
     address: 'Dublin, Ireland',
     freelanceStatus: 'Available',
@@ -26,7 +26,7 @@ const database = {
     {
       title: "Software Development",
       icon: 'code',
-      details: "I'm a dynamic software developer adept at crafting user-centric applications. My skills span JavaScript, Python, and more, enabling me to create seamless, visually appealing interfaces. With a passion for elegant solutions, I thrive on turning complex challenges into user-friendly experiences."
+      details: "I'm a dynamic software developer with expertise in a wide array of technologies, including Python, React JS, Java, Ruby on Rails, and cloud computing on AWS. My proficiency in these languages and frameworks allows me to craft user-centric applications that seamlessly blend aesthetics with functionality. Driven by a passion for elegant solutions, I excel in simplifying intricate problems into intuitive, user-friendly experiences."
     },
     {
       title: "Web Development",
@@ -37,12 +37,27 @@ const database = {
       title: "DevOps Engineer",
       icon: 'cogs',
       details: "I'm a DevOps Engineer specializing in streamlining software delivery through automation and collaboration. With expertise in scalable infrastructure, Docker, Kubernetes, and CI/CD pipelines, I optimize workflows, enhance efficiency, and elevate release quality. My focus is on fostering a culture of continuous improvement and delivering innovative solutions that enable agile and precise product development."
+    },
+    {
+      title: "Video Editor",
+      icon: 'youtube',
+      details: "As a Video Editor, I bring your visual narratives to life. With a keen eye for detail and a creative touch, I transform raw footage into captivating stories. Proficient in industry-standard editing software, I craft seamless transitions, enhance visuals, and synchronize audio to create compelling videos. Whether it's for promotional content, documentaries, or personal projects, I ensure your vision shines through every frame. "
+    },
+    {
+      title: "Music Producer & Musician",
+      icon: 'music',
+      details: "As a Music Producer and versatile musician, I blend creativity and technical expertise to craft exceptional musical experiences. With proficiency in multiple software such as GarageBand, LogicPro and Ableton Live. I also play various instruments, including Guitar, Ukulele, Percussion, Harmonica, and vocals as a Singer and Songwriter, I create original compositions that resonate with emotion. From producing tracks to composing melodies and arranging harmonies, I'm here to infuse your projects with captivating soundscapes and soulful melodies."
+    },
+    {
+      title: "Drone Operator",
+      icon: 'camera',
+      details: "I'm a skilled Drone Operator ready to elevate your visual projects. From breathtaking aerial photography to precise mapping and filmography, I harness the power of drones to capture stunning visuals from unique perspectives. With experience in diverse environments, I bring a new dimension to your content. Whether it's for cinematography, land surveying, or creating immersive visual experiences, I'm equipped to soar to new heights."
     }
   ],
   reviews: [
     {
       id: 1,
-      content: "It's a pleasure to work alongside Igor, he is a true asset to any team. His exceptional work ethic, unwavering dedication, and ability to work collaboratively make him a top performer.",
+      content: "It wass a pleasure to work alongside Igor, he is a true asset to any team. His exceptional work ethic, unwavering dedication, and ability to work collaboratively make him a top performer.",
       author: {
         name: 'Bo Chu',
         designation: 'TikTok - Team Lead'
@@ -58,7 +73,7 @@ const database = {
     },
     {
       id: 3,
-      content: "I've had the pleasure of working with Igor and can confidently say that he is an exceptional employee. His work ethic, team spirit, and steadfast commitment to excellence are truly impressive.",
+      content: "I've had the pleasure of working with Igor and can confidently say that he is an exceptional employee. His work ethic, team spirit, and steadfast commitment to excellence are great assets to any team.",
       author: {
         name: 'Raphael Pagliuca',
         designation: 'Covalen - Team Leader'
@@ -71,6 +86,22 @@ const database = {
             name: 'Giuliana Tricoli',
             designation: 'Frances King School - Director'
           }
+        },
+        {
+          id: 5,
+          content: "Igor demonstrated a strong work ethic and dedication to our academic pursuits. His commitment to excellence was evident in his high-quality work and relentless pursuit of knowledge. He excelled in managing tasks, meeting deadlines, and contributing to our team.",
+          author: {
+            name: 'Fernando Sequineli',
+            designation: 'Technical Support Specialist - WP Engine'
+          }
+        },
+        {
+          id: 6,
+          content: "Igor's unwavering commitment to excellence, strong work ethic, and valuable contributions to our team were truly impressive. His high-quality work and efficient task management set a remarkable example for us all.",
+          author: {
+            name: 'Vinicius Russo',
+            designation: 'Operations Analyst - Covalen'
+          }
         }
   ],
   skills: [
@@ -79,7 +110,7 @@ const database = {
       value: 90
     },
     {
-      title: "Backend (Java, Python, Ruby)",
+      title: "Backend (Python, Java, Ruby)",
       value: 85
     },
     {
@@ -204,7 +235,7 @@ const database = {
         year: "06/2023 - Present",
         position: "Generative AI Annotator",
         company: "Covalen - Ireland",
-        details: "In my role as a Generative AI Annotator, I have actively contributed to the refinement of AI chat bot capabilities by analyzing and providing insightful observations on annotated data. I have undertaken comprehensive research to identify emerging entity categories and organized them effectively, contributing to the creation of guidelines. Through deep data analysis, I've generated annotations, reports, and actionable suggestions that have facilitated the development of enhanced data organization and representation. This experience has not only honed my English language proficiency but also allowed me to contribute significantly to the advancement of AI technology within the team."
+        details: "In my role as a Generative AI Annotator, I have actively contributed to the refinement of AI chat bot capabilities by analyzing and providing insightful observations on annotated data. I have undertaken comprehensive research to identify emerging entity categories and organized them effectively, contributing to the creation of guidelines. Through deep data analysis, I've generated annotations, reports, and actionable suggestions that have facilitated the development of enhanced data organization and representation. This experience has not only honed my English language proficiency but also allowed me to contribute significantly to the advancement of AI technology within the company."
       },
       {
         id: 2,
@@ -390,8 +421,8 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+353 83 846 8058', 'Whatsapp'],
-    emailAddress: ['a2sigor@gmail.com', 'igor.work02@gmail.com'],
+    phoneNumbers: ['+353 83 846 8058', 'Whatsapp Available'],
+    emailAddress: ['a2sigor@gmail.com'],
     address: "Dublin - Ireland"
   }
 }
