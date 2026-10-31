@@ -1,0 +1,10 @@
+{
+  "name": "igor-current-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "python3 tools/check.py",
+    "test": "python3 tools/check.py",
+    "build": "python3 tools/build.py"
+  }
+}
